@@ -22,7 +22,6 @@ export default {
         },
         REMOVE_FROM_CART(state, productId) {
             state.cartItems = state.cartItems.filter((item) => item.id !== productId);
-            console.log(state.cartItems);
         }
     },
 };
